@@ -1,0 +1,27 @@
+name: app_base_v0
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+
+dependencies:
+  shared_preferences: ^2.0.15 # LOCAL STORAGE
+  http: ^0.13.5 # NETWORK REQUESTS
+  bloc_concurrency: ^0.2.0 # PARA MANEJAR LA CONCURRENCIA DE LOS EVENTOS EN LOS BLOC, SE PUEDE ELIMINAR
+  flutter_bloc: ^8.0.0 # BRINDA PATRON BLOC, BASE DE LA APP
+  formz: ^0.4.1 # MANEJO DE FORMULARIOS
+  go_router: ^5.2.4 # MANEJO DE RUTAS Y NAVEGACION DE LA  APLICACION
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
